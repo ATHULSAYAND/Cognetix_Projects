@@ -1,0 +1,5 @@
+ERROR: /etc/snort/snort.conf: can't load /etc/snort/snort.conf: cannot open /etc/snort/snort.conf: No such file or directory
+
+ERROR: /etc/snort/snort.conf: unknown logger console
+FATAL: see prior 2 errors (0 warnings)
+Fatal Error, Quitting..

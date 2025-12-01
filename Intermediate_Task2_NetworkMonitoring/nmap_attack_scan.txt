@@ -1,0 +1,100 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-01 16:48 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00011s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Access-Control-Allow-Origin: *
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     Feature-Policy: payment 'self'
+|     X-Recruiting: /#/jobs
+|     Accept-Ranges: bytes
+|     Cache-Control: public, max-age=0
+|     Last-Modified: Mon, 01 Dec 2025 10:25:04 GMT
+|     ETag: W/"1252f-19ad971cac3"
+|     Content-Type: text/html; charset=UTF-8
+|     Content-Length: 75055
+|     Vary: Accept-Encoding
+|     Date: Mon, 01 Dec 2025 11:18:56 GMT
+|     Connection: close
+|     <!--
+|     Copyright (c) 2014-2026 Bjoern Kimminich & the OWASP Juice Shop contributors.
+|     SPDX-License-Identifier: MIT
+|     <!doctype html>
+|     <html lang="en" data-beasties-container>
+|     <head>
+|     <meta charset="utf-8">
+|     <title>OWASP Juice Shop</title>
+|     <meta name="description" content="Probably the most modern and sophisticated insecure web application">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <link id="favicon" rel="icon"
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 204 No Content
+|     Access-Control-Allow-Origin: *
+|     Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
+|     Vary: Access-Control-Request-Headers
+|     Content-Length: 0
+|     Date: Mon, 01 Dec 2025 11:18:56 GMT
+|     Connection: close
+|   Help, NCP: 
+|     HTTP/1.1 400 Bad Request
+|_    Connection: close
+8081/tcp open  http      Apache httpd 2.4.65 ((Debian))
+|_http-server-header: Apache/2.4.65 (Debian)
+| http-robots.txt: 1 disallowed entry 
+|_/
+| http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_Requested resource was login.php
+9050/tcp open  tor-socks Tor SOCKS proxy
+| socks-open-proxy: 
+|   status: open
+|   versions: 
+|     socks4
+|_    socks5
+| socks-auth-info: 
+|   Username and password
+|_  No authentication
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.95%I=7%D=12/1%Time=692D79A0%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,126E8,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Origin:\
+SF:x20\*\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20SAME
+SF:ORIGIN\r\nFeature-Policy:\x20payment\x20'self'\r\nX-Recruiting:\x20/#/j
+SF:obs\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\x20public,\x20max-age=
+SF:0\r\nLast-Modified:\x20Mon,\x2001\x20Dec\x202025\x2010:25:04\x20GMT\r\n
+SF:ETag:\x20W/\"1252f-19ad971cac3\"\r\nContent-Type:\x20text/html;\x20char
+SF:set=UTF-8\r\nContent-Length:\x2075055\r\nVary:\x20Accept-Encoding\r\nDa
+SF:te:\x20Mon,\x2001\x20Dec\x202025\x2011:18:56\x20GMT\r\nConnection:\x20c
+SF:lose\r\n\r\n<!--\n\x20\x20~\x20Copyright\x20\(c\)\x202014-2026\x20Bjoer
+SF:n\x20Kimminich\x20&\x20the\x20OWASP\x20Juice\x20Shop\x20contributors\.\
+SF:n\x20\x20~\x20SPDX-License-Identifier:\x20MIT\n\x20\x20-->\n\n<!doctype
+SF:\x20html>\n<html\x20lang=\"en\"\x20data-beasties-container>\n<head>\n\x
+SF:20\x20<meta\x20charset=\"utf-8\">\n\x20\x20<title>OWASP\x20Juice\x20Sho
+SF:p</title>\n\x20\x20<meta\x20name=\"description\"\x20content=\"Probably\
+SF:x20the\x20most\x20modern\x20and\x20sophisticated\x20insecure\x20web\x20
+SF:application\">\n\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=d
+SF:evice-width,\x20initial-scale=1\">\n\x20\x20<link\x20id=\"favicon\"\x20
+SF:rel=\"icon\"\x20")%r(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:nection:\x20close\r\n\r\n")%r(NCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\nConnection:\x20close\r\n\r\n")%r(HTTPOptions,EA,"HTTP/1\.1\x20204\
+SF:x20No\x20Content\r\nAccess-Control-Allow-Origin:\x20\*\r\nAccess-Contro
+SF:l-Allow-Methods:\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nVary:\x20Access-C
+SF:ontrol-Request-Headers\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2001\x
+SF:20Dec\x202025\x2011:18:56\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RT
+SF:SPRequest,EA,"HTTP/1\.1\x20204\x20No\x20Content\r\nAccess-Control-Allow
+SF:-Origin:\x20\*\r\nAccess-Control-Allow-Methods:\x20GET,HEAD,PUT,PATCH,P
+SF:OST,DELETE\r\nVary:\x20Access-Control-Request-Headers\r\nContent-Length
+SF::\x200\r\nDate:\x20Mon,\x2001\x20Dec\x202025\x2011:18:56\x20GMT\r\nConn
+SF:ection:\x20close\r\n\r\n");
+Device type: general purpose
+Running: Linux 5.X|6.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.70 seconds
