@@ -1,0 +1,12 @@
+Content Security Policy (CSP) Header Not Set | risk:null | confidence:3
+Cross-Domain Misconfiguration | risk:null | confidence:2
+Cross-Domain JavaScript Source File Inclusion | risk:null | confidence:2
+Dangerous JS Functions | risk:null | confidence:1
+Deprecated Feature Policy Header Set | risk:null | confidence:2
+Insufficient Site Isolation Against Spectre Vulnerability | risk:null | confidence:2
+Timestamp Disclosure - Unix | risk:null | confidence:1
+Information Disclosure - Suspicious Comments | risk:null | confidence:1
+Modern Web Application | risk:null | confidence:2
+Non-Storable Content | risk:null | confidence:2
+Storable and Cacheable Content | risk:null | confidence:2
+Storable but Non-Cacheable Content | risk:null | confidence:2

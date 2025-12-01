@@ -1,0 +1,92 @@
+info: Detected Node.js version v22.21.1 (OK)
+info: Detected OS linux (OK)
+info: Detected CPU x64 (OK)
+info: Configuration default validated (OK)
+info: Entity models 20 of 20 are initialized (OK)
+info: Required file server.js is present (OK)
+info: Required file index.html is present (OK)
+info: Required file runtime.js is present (OK)
+info: Required file tutorial.js is present (OK)
+info: Required file vendor.js is present (OK)
+info: Required file main.js is present (OK)
+info: Required file styles.css is present (OK)
+info: Port 3000 is available (OK)
+info: Chatbot training data botDefaultTrainingData.json validated (OK)
+info: Domain https://www.alchemy.com/ is reachable (OK)
+info: Server listening on port 3000
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
+info: Solved 1-star directoryListingChallenge (Confidential Document)
+info: Cheat score for directoryListingChallenge solved in 1min (expected ~2min) with hints allowed and 100% expected preceding URL interaction: 0.32715000000000005
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
+info: Solved 1-star errorHandlingChallenge (Error Handling)
+info: Cheat score for trivial errorHandlingChallenge solved in 0min (expected ~0min) with hints allowed: 0
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
+Error: Only .md and .pdf files are allowed!
+    at verify (/juice-shop/build/routes/fileServer.js:59:18)
+    at /juice-shop/build/routes/fileServer.js:43:13
+    at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+    at /juice-shop/node_modules/express/lib/router/index.js:286:9
+    at param (/juice-shop/node_modules/express/lib/router/index.js:365:14)
+    at param (/juice-shop/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/juice-shop/node_modules/express/lib/router/index.js:421:3)
+    at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+    at /juice-shop/node_modules/serve-index/index.js:145:39
+    at FSReqCallback.oncomplete (node:fs:198:5)
