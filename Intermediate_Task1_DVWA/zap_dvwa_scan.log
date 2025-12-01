@@ -1,0 +1,4 @@
+Using the Automation Framework
+Automation plan failures:
+	Job spider failed to access URL http://localhost:8081 : Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2025-12-01 09:43:28,702 Failed to access summary file /home/zap/zap_out.json
