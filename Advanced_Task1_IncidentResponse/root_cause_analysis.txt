@@ -1,0 +1,12 @@
+Root Cause: User clicked a phishing link which downloaded payload.exe.
+
+Impact:
+- Malware executed under user profile.
+- Remote command-and-control communication established.
+- Unauthorized DLL loaded into system memory.
+
+Mitigation:
+- Block malicious domains/IPs.
+- Reset affected credentials.
+- Deploy email filtering & phishing training.
+- Improve endpoint detection & response.

@@ -1,0 +1,15 @@
+From: attacker@fakebank.com
+To: victim@example.com
+Subject: IMPORTANT: Account Verification Required
+
+Dear user,
+
+We detected unusual activity on your bank account.
+Please verify your identity immediately:
+
+https://secure-verify-login.fakebank-attacker.com/login.html
+
+Failure to verify will result in suspension.
+
+Regards,
+Fake Bank Security Team

@@ -1,0 +1,17 @@
+<Sysmon>
+<Event>
+    <EventID>1</EventID>
+    <Image>C:\Users\victim\AppData\Roaming\payload.exe</Image>
+    <Hash>MD5=8C6976E5B5410415BDE908BD4DEE15DF</Hash>
+</Event>
+<Event>
+    <EventID>3</EventID>
+    <DestinationIp>45.155.205.55</DestinationIp>
+    <DestinationPort>443</DestinationPort>
+    <Image>C:\Users\victim\AppData\Roaming\payload.exe</Image>
+</Event>
+<Event>
+    <EventID>7</EventID>
+    <ImageLoaded>C:\Windows\System32\malicious.dll</ImageLoaded>
+</Event>
+</Sysmon>

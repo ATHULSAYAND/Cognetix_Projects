@@ -1,0 +1,9 @@
+Incident Timeline (Advanced Task 1)
+
+1. User received a phishing email from attacker@fakebank.com.
+2. Victim clicked malicious link leading to attacker-controlled domain.
+3. Malware (payload.exe) downloaded and executed.
+4. Sysmon detected process creation (EventID 1).
+5. Malware connected to command-and-control IP 45.155.205.55 (EventID 3).
+6. Malicious DLL loaded into memory (EventID 7).
+7. Forensic network capture indicated abnormal outbound traffic.
