@@ -1,0 +1,20 @@
+# Compliance Validation Results
+
+✔ Least Privilege:
+   - dev-user: FAIL (too many permissions)
+   - lambda_role: PASS
+   - admin-user: FAIL (admin access used for daily tasks)
+
+✔ MFA Enforcement:
+   - admin-user: FAIL
+   - dev-user: PASS
+
+✔ Storage Encryption:
+   - AWS S3 public-files: FAIL
+   - GCP logs-bucket: FAIL
+   - Azure blob: FAIL
+
+✔ Network Controls:
+   - SG open SSH: FAIL
+
+Overall: NON-COMPLIANT

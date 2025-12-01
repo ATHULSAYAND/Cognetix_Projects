@@ -1,0 +1,20 @@
+# Cloud Resource Misconfigurations
+
+1. S3 Bucket: public-files
+   - Status: Public
+   - Issue: Public access allows data leak
+   - Fix: Block Public Access, enable encryption
+
+2. Security Group: sg-123456
+   - Inbound: 0.0.0.0/0 on port 22 (SSH)
+   - Issue: World-open SSH access
+   - Fix: Restrict to office IP
+
+3. Cloud Storage (GCP): logs-bucket
+   - Encryption: Disabled
+   - Issue: Sensitive logs unencrypted
+   - Fix: Enable CMEK encryption
+
+4. Azure Blob: container “images”
+   - Access: Anonymous Read
+   - Fix: Set private access level

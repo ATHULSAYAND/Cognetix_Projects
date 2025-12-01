@@ -1,0 +1,9 @@
+Corrective Actions
+
+1. Enable MFA for all privileged IAM users; enforce MFA via IAM policy.
+2. Remove or reduce AdministratorAccess: implement least-privilege roles.
+3. Restrict security groups: remove 0.0.0.0/0 for SSH/RDP; use bastion.
+4. Block public S3 access; enable bucket encryption (SSE-KMS/CMEK).
+5. Enable CloudTrail across all regions and send logs to an encrypted S3 bucket.
+6. Enable AWS Config and set rules for S3 public access, security group checks, and root-account MFA.
+7. Enable GuardDuty / SecurityHub if available to collect continuous findings.

@@ -1,0 +1,15 @@
+# IAM Audit Report (Simulated Cloud Account)
+
+1. User: admin-user
+   - Policies: AdministratorAccess
+   - MFA: Disabled
+   - Issue: Full admin access without MFA → HIGH RISK
+
+2. User: dev-user
+   - Policies: AmazonS3FullAccess
+   - MFA: Enabled
+   - Issue: Over-privileged for dev → Apply least privilege
+
+3. Role: lambda_basic_role
+   - Policy: AWSLambdaBasicExecutionRole
+   - Issue: OK (least privilege)

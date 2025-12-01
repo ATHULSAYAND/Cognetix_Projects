@@ -1,0 +1,14 @@
+Cloud Security Audit Findings Summary
+
+IAM users: see iam_users.json
+IAM policies (local): see iam_policies.json
+IAM roles: see iam_roles.json
+MFA devices: see mfa_status.json
+S3 buckets: see s3_buckets.json
+S3 ACL/policy/encryption: see s3_acl_audit.txt s3_policy_audit.txt s3_encryption_audit.txt
+Security groups: see security_groups.json and open_ports_risk.txt
+Access Analyzer findings: see access_analyzer_findings.json
+Trusted Advisor/TA results: see ta_results.json
+CloudTrail: see cloudtrail_trails.json and cloudtrail_status.json
+AWS Config: see config_recorders.json config_delivery_channels.json
+Notes: Some services (Trusted Advisor / SecurityHub) may require subscription/support and return limited data.
