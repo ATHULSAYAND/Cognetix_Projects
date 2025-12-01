@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Mon Dec  1 14:21:05 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -oA scans/nmap_full_172.20.10.2 172.20.10.2
+Host: 172.20.10.2 ()	Status: Up
+Host: 172.20.10.2 ()	Ports: 	Ignored State: closed (65535)
+# Nmap done at Mon Dec  1 14:21:06 2025 -- 1 IP address (1 host up) scanned in 1.34 seconds

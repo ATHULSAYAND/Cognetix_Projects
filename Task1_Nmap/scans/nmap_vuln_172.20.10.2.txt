@@ -1,0 +1,7 @@
+# Nmap 7.95 scan initiated Mon Dec  1 14:21:06 2025 as: /usr/lib/nmap/nmap --script vuln -oN scans/nmap_vuln_172.20.10.2.txt 172.20.10.2
+Nmap scan report for 172.20.10.2
+Host is up (0.0000060s latency).
+All 1000 scanned ports on 172.20.10.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Dec  1 14:21:16 2025 -- 1 IP address (1 host up) scanned in 10.32 seconds
