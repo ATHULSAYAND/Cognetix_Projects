@@ -1,0 +1,10 @@
+{
+  "Event": {
+    "info": "Simulated Threat Feed",
+    "Attribute": [
+      {"type": "ip-dst", "value": "45.155.205.55"},
+      {"type": "domain", "value": "malicious-update.net"},
+      {"type": "sha256", "value": "d4c3b4f0c9e87600a77aa1bd3c9cc11e4f287be4d3f3217de98e6d90e4b1a9a5"}
+    ]
+  }
+}

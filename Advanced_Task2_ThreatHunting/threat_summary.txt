@@ -1,0 +1,22 @@
+Threat Hunting Summary
+
+1. Integrated Feeds:
+   - AlienVault OTX (public)
+   - AbuseIPDB blacklist (public)
+   - Custom MISP threat feed (original)
+
+2. IOC Types Observed:
+   - Malicious IPs
+   - Suspicious domains
+   - Malware file hashes
+
+3. Key Findings:
+   - Multiple repeated IPs found across OTX and AbuseIPDB.
+   - MISP feed indicates potential malware C2 domain.
+   - Threat activity dominated by malicious IP indicators.
+
+4. Detection Use Cases:
+   - Alert on IPs seen in more than one feed.
+   - Block outbound connections to known abuse IPs.
+   - Monitor DNS queries to suspicious domains.
+
