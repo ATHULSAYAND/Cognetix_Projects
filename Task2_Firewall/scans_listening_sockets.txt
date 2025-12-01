@@ -1,0 +1,9 @@
+Netid State  Recv-Q Send-Q                   Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0                          172.20.10.2:3702       0.0.0.0:*   
+udp   UNCONN 0      0                      239.255.255.250:3702       0.0.0.0:*   
+udp   UNCONN 0      0                              0.0.0.0:45006      0.0.0.0:*   
+udp   UNCONN 0      0      [fe80::f842:88ff:fe51:b0f]%eth0:546           [::]:*   
+udp   UNCONN 0      0                                    *:58471            *:*   
+udp   UNCONN 0      0      [fe80::f842:88ff:fe51:b0f]%eth0:3702          [::]:*   
+udp   UNCONN 0      0                       [ff02::c]%eth0:3702          [::]:*   
+tcp   LISTEN 0      4096                         127.0.0.1:9050       0.0.0.0:*   

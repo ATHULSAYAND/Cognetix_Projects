@@ -1,0 +1,3 @@
+avahi-daemon: not-enabled-or-not-installed
+cups: not-enabled-or-not-installed
+bluetooth: not-enabled-or-not-installed
