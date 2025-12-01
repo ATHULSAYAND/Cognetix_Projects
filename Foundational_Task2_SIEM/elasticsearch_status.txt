@@ -1,0 +1,2 @@
+
+ERROR: Elasticsearch exited unexpectedly, with exit code 137
