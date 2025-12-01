@@ -1,0 +1,12 @@
+      1 X-Content-Type-Options Header Missing | risk:null | confidence:2
+      1 Storable and Cacheable Content | risk:null | confidence:2
+      1 Session Management Response Identified | risk:null | confidence:2
+      1 Server Leaks Version Information via "Server" HTTP Response Header Field | risk:null | confidence:3
+      1 Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s) | risk:null | confidence:2
+      1 Permissions Policy Header Not Set | risk:null | confidence:2
+      1 Non-Storable Content | risk:null | confidence:2
+      1 Missing Anti-clickjacking Header | risk:null | confidence:2
+      1 Insufficient Site Isolation Against Spectre Vulnerability | risk:null | confidence:2
+      1 In Page Banner Information Leak | risk:null | confidence:3
+      1 Cookie without SameSite Attribute | risk:null | confidence:2
+      1 Content Security Policy (CSP) Header Not Set | risk:null | confidence:3

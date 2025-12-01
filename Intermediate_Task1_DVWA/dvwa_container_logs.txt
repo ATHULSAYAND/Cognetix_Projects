@@ -1,1 +1,8 @@
 172.17.0.1 - - [01/Dec/2025:09:42:20 +0000] "HEAD / HTTP/1.1" 302 665 "-" "curl/8.15.0"
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET / HTTP/1.1" 302 684 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET /login.php HTTP/1.1" 200 1115 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET /sitemap.xml HTTP/1.1" 404 434 "-" ""
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET /robots.txt HTTP/1.1" 200 253 "-" ""
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET / HTTP/1.1" 302 684 "-" ""
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET / HTTP/1.1" 302 307 "http://localhost:8081/robots.txt" ""
+172.17.0.1 - - [01/Dec/2025:09:59:30 +0000] "GET /login.php HTTP/1.1" 200 738 "http://localhost:8081" ""
