@@ -1,0 +1,3 @@
+Zero Trust package created: zero_trust_report.md, iam_mappings.md, sample_conditional_access.txt,
+sample_aws_permission_boundary.json, microsegmentation_rules.md, continuous_auth_design.md,
+monitoring_and_alerts.md, rollout_checklist.md, diagram.drawio, diagram.png

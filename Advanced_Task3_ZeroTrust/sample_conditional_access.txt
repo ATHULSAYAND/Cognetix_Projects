@@ -1,0 +1,12 @@
+Name: Require MFA and compliant device for all admin access
+Assignments:
+  Users: All admin role groups
+  Cloud apps: All management portals (Azure Portal, AWS Console via SSO)
+Conditions:
+  Sign-in risk: Medium or above => block
+  Locations: Block from unmanaged countries
+Grant controls:
+  Require multi-factor authentication
+  Require device to be marked as compliant (Intune)
+Session controls:
+  Sign-in frequency: every 8 hours for admin sessions
